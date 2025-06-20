@@ -1,5 +1,4 @@
 import express from "express";
-import { Todos } from "../models/todos.model";
 import { authMiddleware } from "../middlewares/auth.middleware";
 import { todoCreate, todoDelete, todosList, todoUpdate } from "../controllers/todos.controller";
 
